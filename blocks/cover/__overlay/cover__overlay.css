@@ -1,0 +1,18 @@
+
+.cover__overlay {
+    display: inline-block;
+    background: rgba(42, 44, 47, .3);
+    text-decoration: none;
+    width: 100%;
+}
+
+.cover__overlay:hover {
+    background: rgba(42, 44, 47, .8);
+}
+
+
+
+
+
+
+
