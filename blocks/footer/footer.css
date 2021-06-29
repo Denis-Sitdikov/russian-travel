@@ -1,18 +1,13 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 88px 48px 24px 48px;
-    margin: 0;
+    padding: 92px 48px 24px 48px;
+    margin: 0 auto;
     align-items: center;
+    box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-    .footer {
-        padding: 88px 24px 24px 24px;
-    } 
-}
-
-@media (max-width: 767px) {
+@media (max-width: 750px) {
     .footer {
         padding: 64px 0 24px;
         flex-direction: column;
@@ -20,4 +15,5 @@
         align-items: flex-start;
     } 
 }
+
 
